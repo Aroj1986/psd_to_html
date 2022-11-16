@@ -36,12 +36,30 @@ footer {
 
 #our_story-section {
     display: flex;
-
+    justify-content: center;
+    align-items: top;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap: 50px;
 }
 
 #our_story-logo {
-asd
+    justify-content: right;
+    max-height: 125px;
 
-#our_story-text {
+}
 
+#our_story-text h2 {
+    padding-bottom: 20px;
+    color:black;
+    font-weight: 900;
+}
+
+#our_story-text p {
+    color: rgba(0, 0, 0, 0.6);
+    word-spacing: 1px;
+}
+
+#our_story-button {
+    margin-top: 20px;
 }
