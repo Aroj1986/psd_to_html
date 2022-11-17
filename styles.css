@@ -33,3 +33,149 @@ contact_client-section {
 footer {
     color: blueviolet;
 }
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* hero-section  START */
+.logo a {
+    display: flex;
+    align-items: center;
+    font-size: 28px;
+    color: rgba(82, 248, 248, 0.9);
+    text-decoration: none;
+}
+.logo {
+    align-items: flex-start;
+    margin: auto;
+}
+.logo img{
+    width: 40px;
+    margin-right: 15px;
+
+}
+.top-nav {
+    padding-top: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    position: absolute;
+    
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+.menu li {
+    justify-content: space-evenly;
+    padding: 5px;
+}
+.menu {
+    font-size: 10px;
+    font-weight: 800;
+    gap: 10px;
+    list-style: none;
+    display: flex;
+    margin: auto;
+    padding-right: 120px;
+}
+
+.menu li a:hover {
+    color: rgba(82, 248, 248, 0.9);  
+}
+#hero-section {
+    background: url('./design-assets/bgk-header.png') no-repeat center;
+    position: relative;
+    overflow: auto;
+    background-size: cover;
+    height: 600px;
+    z-index: -1;
+
+}
+.hero-style {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    text-align: center;
+    color: white;
+}
+.hero-style h1 {
+    font-size: 36px;
+    padding-bottom: 30px;
+    font-weight: 800;
+}
+
+#h1-line {
+    color: rgba(82, 248, 248, 0.9);
+    border-color: rgba(82, 248, 248, 0.9);
+    margin-left: 46%;
+    margin-right: 46%;
+    size: 5px;
+    border-top: 3px solid rgba(82, 248, 248, 0.9);
+    border-radius: 10px;
+    
+}
+.hero-style p {
+    padding-top: 30px;
+    font-weight: 200;
+    font-size: 16px;
+    opacity: 0.7;
+    word-spacing: 1px;
+
+}
+
+#header-button {
+    color: rgba(82, 248, 248, 0.9);
+    border: 1px rgba(82, 248, 248, 0.9) solid;
+    background-color: transparent;
+    padding: 8px;
+    margin-top: 30px;
+}
+
+/* hero section END */
+
+/* our story section START */
+
+#our_story-section {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap: 50px;
+}
+
+#our_story-logo {
+    justify-content: right;
+    max-height: 125px;
+}
+
+#our_story-text {
+    padding-left: 125px;
+}
+#our_story-text h2 {
+    padding-bottom: 20px;
+    color:black;
+    font-weight: 900;
+}
+
+#our_story-text p {
+    color: rgba(0, 0, 0, 0.6);
+    word-spacing: 1px;
+}
+
+#our_story-button {
+    color: rgba(82, 248, 248, 0.9);
+    border: 1px rgba(82, 248, 248, 0.9) solid;
+    background-color: transparent;
+    padding: 8px;
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+/* our story section END */
