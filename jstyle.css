@@ -1,0 +1,113 @@
+/* this css made by John */
+
+/* flex box  */
+.flex-container {
+
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+    height: 500px;
+    /* align-self: center; */
+    /* background-color: lightgrey; */
+    background-image: url(design-assets/bgk-header.png); 
+    background-repeat:no-repeat;
+    background-position: top left;
+    /* justify-content: center; */
+    margin-top: 0px;
+    /* direction: rtl; */
+    /* justify-content: center; */
+}
+#navbar {
+    /* display flex effects the children, it makes all the children inline elements */
+    display: flex;
+    /* justify-content moves the children horizontally if the flex direction is a row ( the default) */
+    justify-content: center;
+    /* lign-items moves the children vertically if the flex direction is a row ( the default) */
+    align-items:  center ;
+    background-image: url(design-assets/bgk-header.png); 
+    background-size:100%;
+    background-repeat:repeat;
+    background-color: rgb(35, 40, 79);
+    /* background image  */
+    padding: 16px 32px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  #navbar .p {
+    font-size: larger;
+
+  }
+  
+  #navbar ul {
+    display: flex;
+    /* gap is used with flex to add space between the children */
+    gap: 16px;
+    /* list-style is used to change how the bullet points look like or remove them */
+    list-style: none;
+  }
+  
+  #navbar span {
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+.flex-item {
+    /* display: flex; */
+    /* background-color: rgb(174, 195, 234); */
+    position: center;
+    
+    width:100%;
+    /* height: 100px; */
+    margin: 0px;
+    /* justify-content: center ; */
+    /* align-items: center; */
+    text-align: center;
+    padding-top: 30px;
+    font-size: 20px;
+    /* cursor effects the looks of the mouse courser */
+    /* cursor: pointer; */
+    color: white;
+
+}
+.flex-item img {
+    height: 30px;
+    align-items: left;
+    align-content: left;
+
+}
+.list-item {
+    font-size: 20px;
+    /* cursor effects the looks of the mouse courser */
+    cursor: pointer;
+  }
+  
+  .list-item:hover {
+    color: rgb(20, 87, 114);
+  }
+
+
+/* white-flex-container  */
+.white-flex-container {
+    
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+    height: 500px;
+    /* align-self: center; */
+    /* background-color: lightgrey; */
+    background-image: url(design-assets/bgk-header.png); 
+    background-repeat:no-repeat;
+    background-position: top left;
+    justify-content: center;
+
+    /* direction: rtl; */
+}
+ 
+.white-flex-item {
+    
+    /* background-color: rgb(174, 195, 234); */
+    width:100%;
+    /* height: 100px; */
+    margin: 0px;
+    justify-content: center;
+}

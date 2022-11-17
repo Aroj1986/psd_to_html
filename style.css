@@ -1,0 +1,160 @@
+/* header section */
+
+#headcontain {
+    display: flex;
+    /* flex-direction sets the direction of the flex box, making it a column returns it to the original state but 
+    it enable us to use other attributes like align-items gap*/
+    flex-direction: column;
+    background-image: url(design-assets/bgk-header.png); 
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+    min-height: 500px;
+    color: white;
+    align-items: center;
+    gap: 1rem;
+}
+#navbar {
+    /* display flex effects the children, it makes all the children inline elements */
+    display: flex;
+    /* justify-content moves the children horizontally if the flex direction is a row ( the default) */
+    justify-content: center;
+    /* lign-items moves the children vertically if the flex direction is a row ( the default) */
+    align-items:  center ;
+    background-image: url(design-assets/bgk-header.png); 
+    background-size:100%;
+    background-repeat:repeat;
+    background-color: rgb(35, 40, 79);
+    /* background image  */
+    padding: 16px 32px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  #navbar .p {
+    font-size: larger;
+
+  }
+  
+  #navbar ul {
+    display: flex;
+    /* gap is used with flex to add space between the children */
+    gap: 16px;
+    /* list-style is used to change how the bullet points look like or remove them */
+    list-style: none;
+  }
+  
+  #navbar span {
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  .list-item {
+    font-size: 20px;
+    /* cursor effects the looks of the mouse courser */
+    cursor: pointer;
+  }
+  
+  .list-item:hover {
+    color: rgb(20, 87, 114);
+  }
+
+  
+  #hero {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 3rem;
+  }
+  
+  #hero #content {
+    width: 70%;
+  }
+  
+  #hero img {
+    height: 100px;
+  }
+  
+  #hero #content h1 {
+    font-size: 32px;
+  }
+  
+  #hero #content p {
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.626);
+  }
+  
+  #hero #content button {
+    font-size: 20px;
+    color: white;
+    padding: 1rem 2rem;
+    background-color: rgb(27, 117, 153);
+    border: 0;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  /* main section */
+  
+  .main {
+    display: flex;
+    /* flex-direction sets the direction of the flex box, making it a column returns it to the original state but 
+    it enable us to use other attributes like align-items gap*/
+    flex-direction: column;
+  
+    align-items: center;
+    gap: 1rem;
+    
+  }
+ 
+  
+  .main p {
+    font-size: 20px;
+    width: 50%;
+    text-align: center;
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .card {
+    background-color: antiquewhite;
+    width: 400px;
+  
+    /* box-shadow adds a shadow around the element */
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-body {
+    padding: 1rem 2rem;
+  }
+  
+  .card p {
+    width: 90%;
+    text-align: left;
+  }
+  
+  .card img {
+    width: 100%;
+  }
+  
+  .card button {
+    padding: 1rem 0;
+    width: 100%;
+    background-color: white;
+    color: rgb(27, 117, 153);
+    font-size: 15px;
+    font-weight: 700;
+  
+    /* border of 2ps and solid (1 continuous line) with a blue color */
+    border: 2px solid rgb(27, 117, 153);
+    border-radius: 5px;
+  
+    cursor: pointer;
+  }
+  
+  .card button:hover {
+    color: white;
+    background-color: rgb(27, 117, 153);
+  }
+  
