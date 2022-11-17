@@ -44,7 +44,7 @@ img {
     display: flex;
     align-items: center;
     font-size: 28px;
-    color: yellowgreen;
+    color: rgba(82, 248, 248, 0.9);
     text-decoration: none;
 }
 .logo {
@@ -84,7 +84,7 @@ img {
 }
 
 .menu li a:hover {
-    color: yellowgreen;  
+    color: rgba(82, 248, 248, 0.9);  
 }
 #hero-section {
     background: url('./design-assets/bgk-header.png') no-repeat center;
@@ -111,12 +111,12 @@ img {
 }
 
 #h1-line {
-    color: yellowgreen;
-    border-color: yellowgreen;
+    color: rgba(82, 248, 248, 0.9);
+    border-color: rgba(82, 248, 248, 0.9);
     margin-left: 46%;
     margin-right: 46%;
     size: 5px;
-    border-top: 3px solid yellowgreen;
+    border-top: 3px solid rgba(82, 248, 248, 0.9);
     border-radius: 10px;
     
 }
@@ -130,14 +130,16 @@ img {
 }
 
 #header-button {
-    color: yellowgreen;
-    border: 1px yellowgreen solid;
+    color: rgba(82, 248, 248, 0.9);
+    border: 1px rgba(82, 248, 248, 0.9) solid;
     background-color: transparent;
     padding: 8px;
     margin-top: 30px;
 }
 
 /* hero section END */
+
+/* our story section START */
 
 #our_story-section {
     display: flex;
@@ -151,9 +153,11 @@ img {
 #our_story-logo {
     justify-content: right;
     max-height: 125px;
-
 }
 
+#our_story-text {
+    padding-left: 125px;
+}
 #our_story-text h2 {
     padding-bottom: 20px;
     color:black;
@@ -166,5 +170,12 @@ img {
 }
 
 #our_story-button {
-    margin-top: 20px;
+    color: rgba(82, 248, 248, 0.9);
+    border: 1px rgba(82, 248, 248, 0.9) solid;
+    background-color: transparent;
+    padding: 8px;
+    margin-top: 30px;
+    font-weight: 600;
 }
+
+/* our story section END */
