@@ -213,7 +213,6 @@ h3 {
     text-transform: uppercase;
     justify-content: center;
     gap: 5rem;
-    height: 200px;
     margin: 2rem;
   }
 
@@ -258,3 +257,25 @@ h3 {
     font-size: 16px;
 }
 
+/* footer START */
+
+footer {
+    background-image: url('./design-assets/bgk-footer.png');
+    background-size: cover;
+    height: 450px;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+/* footer END */
