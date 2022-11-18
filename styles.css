@@ -204,3 +204,57 @@ h3 {
 
 
 /* our story VIDEO end */
+
+/* contact client START */
+
+#contact_client-section {
+    display: flex;
+    background-color: white;
+    text-transform: uppercase;
+    justify-content: center;
+    gap: 5rem;
+    height: 200px;
+    margin: 2rem;
+  }
+
+  .contform form {
+    display: flex;
+    flex-direction: column;
+    min-height: 200px;
+    min-width: 50px;
+    background-color: white;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+    .contform input, textarea {
+        border-style: solid;
+        border-color: rgba(185, 184, 184, 0.6);
+    }
+
+.btn {
+    color: rgba(82, 248, 248, 0.9);
+    border: 1px rgba(82, 248, 248, 0.9) solid;
+    background-color: transparent;
+    padding: 8px;
+    margin-top: 30px;
+}
+
+.logo-contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    align-items: center;
+    background-color: white;
+    margin-top: 1rem;
+    grid-auto-rows: 80px;
+    column-gap: 3rem;
+    max-height: 50px;
+    max-width: fit-content;
+}
+
+.contact-head{
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
