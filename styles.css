@@ -327,7 +327,7 @@ footer {
 }
 
 /* Team section */
-.main {
+.team-section {
     display: flex;
     /* flex-direction sets the direction of the flex box, making it a column returns it to the original state but 
     it enable us to use other attributes like align-items gap*/
@@ -338,28 +338,33 @@ footer {
     align-items: center;
     gap: 1rem;
     color:white;
-    height: 550px;;
+    height: 600px;;
   }
+  #team-section-hr {
+    width: 80px;
+    color: grey;
+  }
+ 
 
-  .main h2 {
+  .team-section h2 {
     margin-top: 4rem;
     font-size: 16px;
     text-align: center;
   }
 
-  .main p {
+  .team-section p {
     font-size: 16px;
     text-align: center;
   }
   
-  .cards {
+  .boxs {
     display: flex;
     justify-content: center;
     gap: 1rem;
     width:45%;
   }
   
-  .card {
+  .box {
     /* background-color: antiquewhite; */
     width: 400px;
     /* width: 70%; */
@@ -368,24 +373,28 @@ footer {
     border: 0.1px solid rgba(185, 184, 184, 0.6);;  
 }
 
-  .card-body {
+  .team-section-box {
     text-align: center;
     font-size: 9px;
   }
+  #team-section-box {
+    color: rgb(228, 222, 222);
+    font-size: 12px;
+  }
 
-.card p {
+.box p {
     text-align: center;
     color: white;
     font-size: 10px;
     margin-bottom: 1rem;
 }
   
-  .card img {
+  .box img {
     width: 100%;
   /* height: 200px; */
   }
   
-  .card button {
+  .box button {
     padding: 1rem 0;
     width: 100%;
     background-color: white;
@@ -399,18 +408,19 @@ footer {
     cursor: pointer;
   }
   
-  .card button:hover {
+  .box button:hover {
     color: white;
     background-color: rgb(27, 117, 153);
   }
 
-  .view-more {
+  .team-btn {
     color: rgba(82, 248, 248, 0.9);
     border: 1px rgba(82, 248, 248, 0.9) solid;
     background-color: transparent;
     padding: 8px;
     margin-top: 1rem;
     font-weight: 600;
+    font-size: 12px;
   }
 
 
