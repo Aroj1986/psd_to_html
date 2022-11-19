@@ -1,3 +1,3 @@
 # psd_to_html
 
-# from John
+# from group2 John
