@@ -2,6 +2,113 @@
     margin: 0;
 }
 
+/* Header-navigation section */
+#header{
+    background-image: url(./design-assets/bgk-header.png);
+    height: 650px;
+}
+
+#navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 1rem;
+    padding-right: 180px;
+    padding-left: 180px;
+}
+
+.logoname{
+    display: inline-flex;
+    gap: 0.5rem;
+}
+
+.tajam{
+    color: rgb(19, 147, 143);
+    font-size: 32px;
+}
+
+#navbar ul {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+    color: white;
+  }
+
+#navbar li {
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+
+.list-item {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#navbar li a:hover {
+    color: rgba(82, 248, 248, 0.9);  
+}
+
+.header-hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 200px 390px;
+    text-align: center;
+}
+
+.btn-header {
+    color: green;
+    border: 1px solid green;
+    margin-top: 1rem;
+    text-transform: uppercase;
+    width: 110px;
+    background-color: transparent;
+}
+
+/* Our Story section */
+#our_story-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: white;
+    height: 250px;
+    gap: 5rem;
+    margin-top: 3rem;
+}
+
+.story p {
+    width: 550px;
+    margin-bottom: 2rem;
+}
+
+.btn-story {
+    color: green;
+    border: 1px solid green;
+    margin-top: 1rem;
+    text-transform: uppercase;
+    width: 110px;
+}
+
+/* Watch section */
+#watch-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-transform: uppercase;
+    background-image: url(./design-assets/bgk-middle.png);
+    height: 530px;
+    gap: 1rem;
+}
+
+.play-city:hover{
+    color: aqua;
+    cursor: pointer;
+}
 
 /* Expertise section */
 #expertise-section {
@@ -136,3 +243,134 @@
     margin-top: 1rem;
     font-weight: 600;
   }
+
+/* Contact client section */
+#contact_client-section {
+    display: flex;
+    background-color: white;
+    text-transform: uppercase;
+    justify-content: center;
+    gap: 5rem;
+    height: 355px;
+    margin: 2rem;
+  }
+
+.contform form {
+    display: flex;
+    flex-direction: column;
+    min-height: 200px;
+    min-width: 50px;
+    background-color: white;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.btn {
+    color: green;
+    border: 1px solid green;
+    margin-top: 1rem;
+    text-transform: uppercase;
+    width: 80px;
+}
+
+.logo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    align-items: center;
+    background-color: white;
+    margin-top: 1rem;
+    grid-auto-rows: 80px;
+    column-gap: 3rem;
+}
+
+.contact-head{
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+/* Footer section */
+.footer-section{
+    background-image: url(./design-assets/bgk-footer.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 370px;
+}
+
+.footer-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 300px;
+    color: white;
+    gap: 1rem;
+}
+
+.footer-items{
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+    width: 300px;
+    margin-top: 5rem;
+}
+
+.fitemhead{
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+.address{
+    display: inline-flex;
+    width: 300px;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.subscribe{
+    display: inline-flex;
+    gap: 0.5rem;
+}
+.subscribetext{
+    border: 1px solid gray;
+    padding: 6px 15px;
+}
+
+.subscribebutton{
+    border: 1px solid gray;
+    background-color: gray;
+    padding: 6px 15px;
+}
+
+.socialmedia{
+    display: inline-flex;
+    gap: 0.25rem;
+    margin-top: 1rem;
+}
+
+.policy{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+}
+
+.miscellaneous {
+    display: inline-flex;
+    list-style: none;
+    font-size: 10px;
+    padding-right: 120px;
+    gap: 1rem;
+}
+
+.miscellaneous li a{
+    color: white;
+}
+
+.miscellaneous li a:hover {
+    color: rgba(82, 248, 248, 0.9);  
+}
+
+.policy p {
+    font-size: 12px;
+}
