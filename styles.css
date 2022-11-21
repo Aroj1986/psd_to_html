@@ -429,6 +429,8 @@ footer {
 .footer-section{
     background-image: url(./design-assets/bgk-footer.png);
     display: flex;
+    background-repeat: no-repeat;
+    background-size: 100%;
     flex-direction: column;
     align-items: center;
     height: 370px;
@@ -463,6 +465,16 @@ footer {
     margin-bottom: 1rem;
 }
 
+.logoname{
+    display: inline-flex;
+    gap: 0.5rem;
+}
+
+.tajam{
+    color: rgb(19, 147, 143);
+    font-size: 32px;
+}
+
 .subscribe{
     display: inline-flex;
     gap: 0.5rem;
@@ -470,6 +482,9 @@ footer {
 .subscribetext{
     border: 1px solid gray;
     padding: 6px 15px;
+    padding-top: 12px;
+    opacity: 0.55;
+    
 }
 
 .btn-subscribe{
@@ -507,6 +522,10 @@ footer {
     color: white;
   }
 
+  .fa-dribbble {
+    color: white;
+  }
+
   .fa-instagram {
     color: white;
   }
@@ -524,8 +543,13 @@ footer {
     flex-direction: row;
     justify-content: space-around;
     color: white;
+    gap: 350px;
+    
 }
 
+.policy ul li a {
+    text-decoration: none;
+}
 .miscellaneous {
     display: inline-flex;
     list-style: none;
@@ -545,4 +569,9 @@ footer {
 .policy p {
     font-size: 12px;
 }
+
+#button-newsletter {
+    opacity: 0.55;
+}
+
 /* footer END */
