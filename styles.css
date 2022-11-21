@@ -426,15 +426,123 @@ footer {
 
 /* footer START */
 
-footer {
-    background-image: url('./design-assets/bgk-footer.png');
-    background-size: cover;
-    height: 450px;
-    z-index: -1;
+.footer-section{
+    background-image: url(./design-assets/bgk-footer.png);
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
+    height: 370px;
 }
 
+.footer-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 300px;
+    color: white;
+    gap: 1rem;
+}
+
+.footer-items{
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+    width: 300px;
+    margin-top: 5rem;
+}
+
+.fitemhead{
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+.address{
+    display: inline-flex;
+    width: 300px;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.subscribe{
+    display: inline-flex;
+    gap: 0.5rem;
+}
+.subscribetext{
+    border: 1px solid gray;
+    padding: 6px 15px;
+}
+
+.btn-subscribe{
+    padding: 6px 15px;
+    cursor: pointer;
+}
+
+.socialmedia{
+    display: inline-flex;
+    gap: 0.4rem;
+    margin-top: 1rem;
+}
+
+/* social media icons */
+.fa {
+    background-color: transparent;
+    border: 1px solid white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    padding: 8px;
+    font-size: 20px;
+    width: 14px;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    color: white;
+  }
+
+  .fa-twitter {
+    color: white;
+  }
+
+  .fa-instagram {
+    color: white;
+  }
+
+  .fa-google-plus {
+    color: white;
+  }
+
+  .fa-youtube-play {
+    color: white;
+  }
+
+.policy{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+}
+
+.miscellaneous {
+    display: inline-flex;
+    list-style: none;
+    font-size: 10px;
+    padding-right: 120px;
+    gap: 1rem;
+}
+
+.miscellaneous li a{
+    color: white;
+}
+
+.miscellaneous li a:hover {
+    color: rgba(82, 248, 248, 0.9);  
+}
+
+.policy p {
+    font-size: 12px;
+}
 /* footer END */
